@@ -1,0 +1,5 @@
+$('#myDiv table').each(function(){ 
+   alert(this.id);  
+});
+
+//Basicamente iteramos sobre los elementos que estan dentro de un elemento y asi podremos obtener sus Ids
